@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+    authzforce:
+        image: authzforce/server:release-9.0.1
+        hostname: authzforce
+        container_name: fiware-authzforce
+        networks:
+            authzforce:
+               ipv4_address: 172.30.1.12
+        ports:
+                - "8080:8080"
+        healthcheck:
+                test: curl --fail -s http://authzforce:8080/authzforce-ce/version || exit 1
+
+networks:
+    authzforce:
+        ipam:
+            config:
+                - subnet: 172.30.1.0/24
