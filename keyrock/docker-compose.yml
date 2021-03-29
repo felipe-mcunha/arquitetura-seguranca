@@ -6,7 +6,7 @@ services:
         hostname: keyrock
         networks:
             fiware:
-                ipv4_address: 172.31.1.5
+                ipv4_address: 173.31.1.5
         depends_on:
             - mysql-db
         ports:
@@ -42,12 +42,12 @@ services:
             - '3306:3306'
         networks:
             fiware:
-                ipv4_address: 172.31.1.6
+                ipv4_address: 173.31.1.6
         environment:
             # Development use only
             # Use Docker Secrets for Sensitive Data
             - 'MYSQL_ROOT_PASSWORD=secret'
-            - 'MYSQL_ROOT_HOST=172.31.1.5'
+            - 'MYSQL_ROOT_HOST=173.31.1.5'
         volumes:
             - mysql-db:/var/lib/mysql
 
@@ -63,12 +63,12 @@ services:
             - SMTP_PASSWORD=<password> # Password to connect to the external relay
             - EXT_RELAY_HOST=<hostname> # External relay DNS name
             - EXT_RELAY_PORT=25
-            - ACCEPTED_NETWORKS=172.31.1.0/24
+            - ACCEPTED_NETWORKS=173.31.1.0/24
             - USE_TLS=no
 networks:
     fiware:
         ipam:
             config:
-                - subnet: 172.31.1.0/24
+                - subnet: 173.31.1.0/24
 volumes:
     mysql-db: ~
