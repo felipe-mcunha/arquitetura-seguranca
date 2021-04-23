@@ -10,6 +10,7 @@ echo "Installing Helix Sandbox NG"
 git clone https://github.com/Helix-Platform/Sandbox-NG.git
 cd Sandbox-NG
 ./install.sh
+cd..
 
 echo "Now we need Docker and Docker compose, so let's start"
 apt install docker -y && apt install docker-compose -y 
