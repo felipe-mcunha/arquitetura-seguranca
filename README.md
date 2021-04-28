@@ -1,4 +1,5 @@
-# Teste para instalação no Helix Sandbox-NG
-Segue passo a passo de instalação 
+# Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG
 
+  A arquitetura proposta no projeto foi implementada sem a necessidade de alterações na estrutura da plataforma Helix e no Orion Context Broker, onde o usuário passa a ter acesso a plataforma para visualização do Context Broker, porém quando for realizar a criação de entidades no Context broker é necessário se autenticar no Wilma. Para realizar essa solicitação o usuário deve ser criado no Keyrock, sendo acessado através da porta 3000, e suas regras de acesso também são criadas e passados pelo usuário no Keyrcok, sendo ele responsável por repassar as regras para o  Authzforce. 
+  Anteriormente o dispositivo IoT quando se comunicava com a plataforma para realizar alterações, ocorria uma comunicação direta com o Context Broker sem a necessidade de autenticação. Com a implementação, é necessário que a comunicação passe pelo Wilma, onde o dispositivo IoT se comunica com o Pep Proxy através da porta 1027 informando seu token de autenticação, e a partir deste ponto será feita uma consulta ao Keyrock para validar a existência do token, e após isso confirmar as permissões de ações junto ao Authzforce. As regras no AuthzForce juntamente com a entidade do dispositivo IoT, são criadas previamente pelo administrador do sistema.
 
