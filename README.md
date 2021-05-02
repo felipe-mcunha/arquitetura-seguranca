@@ -1,4 +1,17 @@
-<h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG</h1> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Posicionamento</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content="Felipe Matheus da Cunha">
+  <meta name="description" content="Atividade Posicionamento">
+  <meta name="keywords" content="HTML, WEB, CPS, FATEC">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+    <body>
+    <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG</h1> 
 
 
   <p>A arquitetura apresentada realiza a implementação das soluções de segurança FIWARE sem a necessidade de alterações na estrutura da plataforma Helix e no Orion Context Broker, onde o usuário passa a ter acesso a plataforma Helix para visualização do funcionamento do Context Broker, porém quando for realizar a criação de entidades no Context broker é necessário se autenticar no ambiente.<br>
@@ -120,22 +133,36 @@ Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao 
 echo -n <strong>{APP_ID}</strong>:<strong>{SECRET}</strong> | base64><br>
 
 Copie a resposta e informe no comando a seguir na opção base64 e altere para o IP da máquina que o Keyrock está instalado.<br><br>
-curl -iX POST \<br>
-  'http://<strong>{IP_MAQUINA}</strong>:3000/oauth2/token' \<br>
-  -H 'Accept: application/json' \<br>
-  -H 'Authorization: Basic <strong>{BASE64}</strong>' \<br>
-  -H 'Content-Type: application/x-www-form-urlencoded' \<br>
-  --data "username=admin@test.com&password=1234&grant_type=password"<br>
+curl -iX POST \
+<br>
+  'http://<strong>{IP_MAQUINA}</strong>:3000/oauth2/token' \
+  <br>
+  -H 'Accept: application/json' \
+  <br>
+  -H 'Authorization: Basic <strong>{BASE64}</strong>' \
+  <br>
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  <br>
+  --data "username=admin@test.com&password=1234&grant_type=password"
+  <br>
   <br><br>
 
 
   Agora iremos verificar se as ferramentas estão conectadas, a partir do comando a seguir, a resposta que ele deve nos retornar é que domínio não existe, ou seja não tem permissão no ambiente, informe o access token obtido no comando anterior:<br><br>
   
-  curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \<br>
---header 'Accept: application/json' \<br>
---header 'fiware-service: helixiot' \<br>
---header 'fiware-servicepath: /' \<br>
---header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'<br>
+  curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \
+  <br>
+--header 'Accept: application/json' \
+<br>
+--header 'fiware-service: helixiot' \
+<br>
+--header 'fiware-servicepath: /' \
+<br>
+--header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'
+<br>
 <br>
 Como teste para verificação se o Authzforce está recebendo regras no keyrock, siga o passo a passo a seguir
-    
+      
+  </body> 
+
+</html>
