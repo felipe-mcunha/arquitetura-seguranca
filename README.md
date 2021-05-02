@@ -1,4 +1,26 @@
- 
+ <style>
+ .paragrafo1  {
+
+                font-size: 16pt;
+                  text-indent: 70px;
+                text-align: justify;
+
+  }
+  .paragrafo2  {
+
+                font-size: 16pt;
+                  text-indent: 70px;
+                text-align: justify;
+
+  }
+  .paragrafo3  {
+
+                font-size: 16pt;
+                  text-indent: 70px;
+                text-align: justify;
+
+  }
+  </style>
 
 
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
