@@ -6,7 +6,7 @@
   
   <h3>Passo a passo:</h3>
 
-<p><h4>1° Passo - O primeiro passo para instalação da arquitetura é realizar o download dos arquivos contidos no GitHub<br></h4>
+<p><h4>1° Passo - O primeiro passo para instalação da arquitetura é realizar o download dos arquivos contidos no GitHub</h4>
 
  Para obter os arquivos digite o comando: 
  <ul>
