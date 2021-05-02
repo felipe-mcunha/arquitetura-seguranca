@@ -19,16 +19,16 @@
  </p> 
  
 
- <p><h4>2° Passo - Precisamos realizar o download dos arquivos de segurança, caso tenha o helix instalado utilizaremos o arquivo requirements.sh, caso seja necessário a instalação do helix será necessário utilizar o arquivo requirements_sem_helix.sh </h4>
-    Siga os comandos abaixo para instalar os recursos necessários:
-  <ul>
 
-    <li>sudo chmod 777 requirements.sh ou requirements_sem_helix.sh</li>
-    <li>./requirementes.sh ou requirements_sem_helix.sh</li>
-    <li>Iniciado instalação dos requisistos, Aguarde..</li>
-    
-  </ul>
-</p>
+<p><h4>2° Passo - Precisamos realizar o download dos arquivos de segurança, caso tenha o helix instalado utilizaremos o arquivo requirements.sh, caso seja necessário a instalação do helix será necessário utilizar o arquivo requirements_sem_helix.sh</h4>
+
+ Para obter os arquivos digite o comando: 
+ <ul>
+  <li>sudo chmod 777 requirements.sh ou requirements_sem_helix.sh</li>
+  <li>./requirementes.sh ou requirements_sem_helix.sh</li>
+  <li>Iniciado instalação dos requisistos, Aguarde..</li>  
+</ul>
+ </p> 
 
 <p><h4>3° Passo - Caso já possua o helix instalado e tenha ativado o Context Broker pule para a etapa 4</h4>
   <h4>Para quem ainda não possui siga o passo a passo do GitHub do helix para ativar o Context Broker
