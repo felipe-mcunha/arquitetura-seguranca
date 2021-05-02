@@ -139,10 +139,8 @@ curl -iX POST \
   <br>
   -H 'Accept: application/json' \
   <br>
-  -H 'Authorization: Basic <strong>{BASE64}</strong>' \
-  <br>
-  -H 'Content-Type: application/x-www-form-urlencoded' \
-  <br>
+  -H 'Authorization: Basic <strong>{BASE64}</strong>' \ <br>
+  -H 'Content-Type: application/x-www-form-urlencoded' \ <br>
   --data "username=admin@test.com&password=1234&grant_type=password"
   <br>
   <br><br>
