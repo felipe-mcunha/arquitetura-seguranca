@@ -143,7 +143,4 @@ curl -iX POST \
 <br>
 <br>
 Como teste para verificação se o Authzforce está recebendo regras no keyrock, siga o passo a passo a seguir
-      
-  </body> 
-
-</html>
+ 
