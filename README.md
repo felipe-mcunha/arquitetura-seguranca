@@ -133,8 +133,8 @@ curl -iX POST \
 
   Agora iremos verificar se as ferramentas estão conectadas, a partir do comando a seguir, a resposta que ele deve nos retornar é que domínio não existe, ou seja não tem permissão no ambiente, informe o access token obtido no comando anterior:<br><br>
   
-  curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \<br>
---header 'Accept: application/json' \<br>
+  curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \ <br>
+--header 'Accept: application/json' \ <br>
 --header 'fiware-service: helixiot' \
 <br>
 --header 'fiware-servicepath: /' \
