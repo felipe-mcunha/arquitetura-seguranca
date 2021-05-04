@@ -141,14 +141,15 @@ curl -iX POST \ <br>
 
   Agora iremos verificar se as ferramentas estão conectadas, a partir do comando a seguir, a resposta que ele deve nos retornar é que domínio não existe, ou seja não tem permissão no ambiente, informe o access token obtido no comando anterior:<br><br>
   
- curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \ <br>
+
+curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \ <br>
 --header 'Accept: application/json' \ <br>
 --header 'fiware-service: helixiot' \ <br>
 --header 'fiware-servicepath: /' \ <br>
 --header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'<br>
 <br>
 <h4>Como teste para verificação se o Authzforce está recebendo regras no keyrock, siga o passo a passo a seguir para criar a regra no Keyrock e o mesmo repassar o Authzforce</h4>
-
+<p>
 <Rule RuleId="alrmbell-ring-0000-0000-000000000000" Effect="Permit"> <br>
   <Description>Acesso ao helix</Description> <br>
   <Target> <br>
@@ -177,5 +178,5 @@ curl -iX POST \ <br>
     </Apply> <br>
   </Condition> <br>
 </Rule> <br>
-
+</p>
  
