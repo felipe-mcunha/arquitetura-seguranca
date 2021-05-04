@@ -48,8 +48,10 @@
 <ul>
   <li>cd keyrock</li>
   <li>nano docker-compose.yml - Será necessário configurar informações do AuthzForce</li>
-  <li>Na linha 31 contêm a variavel IDM_AUTHZFORCE_HOST={IP HOST} </li>
-  <li>Substitua o {IP HOST} para o ip em que o Authzforce estará configurado</li>
+  <li>Na linha 31 contêm a variavel <strong>IDM_AUTHZFORCE_HOST={IP HOST}</strong> </li>
+  <li>Substitua o <strong>{IP HOST}</strong> para o ip em que o Authzforce estará configurado igual na  imagem a seguir:</li>
+  <img src="https://user-images.githubusercontent.com/70486745/117071816-fada8a00-ad05-11eb-8e05-f205df9394ff.PNG">
+  
   <li>Salve o arquivo apertando ctrl+O > ENTER > ctrl X</li>
   <li>docker-compose up para ativar o container do Keyrock</li>
   <li>Aguarde o processo do container ser ativado</li>
@@ -58,7 +60,7 @@
 </p>
 
 <p>
-  <h4>6 Agora precisamos realizar a criação de uma entidade no keyrock, pois para realizar a configuração do Wilma será necessário pegar alguns tokens de acesso gerados no keyrock. Siga os passos abaixo:</h4>
+  <h4>6° Passo - Agora precisamos realizar a criação de uma entidade no keyrock, pois para realizar a configuração do Wilma será necessário pegar alguns tokens de acesso gerados no keyrock. Siga os passos abaixo:</h4>
   <ul>
     <li>O primeiro passo é logar no keyrock utlizando o navegador, digitando o IP da máquina :3000</li>
     <li>Logue com o usuário: admin@test.com e senha: 1234</li>
