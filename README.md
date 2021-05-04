@@ -44,7 +44,7 @@
 </p>
 
 <p>
-  <h4>5 Nessa etapa será configurado a segunda ferramenta de segurança, o Keyrock, Siga os comandos abaixo:</h4>
+  <h4>5° Passo - Nessa etapa será configurado a segunda ferramenta de segurança, o Keyrock, Siga os comandos abaixo:</h4>
 <ul>
   <li>cd keyrock</li>
   <li>nano docker-compose.yml - Será necessário configurar informações do AuthzForce</li>
@@ -84,7 +84,7 @@
   <li>Em seguida digite o comando nano config.js</li>
   <li>Na linha 15 informe o IP da máquina que o keyrock está ativo.</li>
   <li>Na linha 21 informe o IP que o context broker está ativo.</li>
-  <li>Na linha 33, 34 e 35 será informado as credenciais gerados no keyrock, siga as imagens abaixo para obter as credenciais no keyrock.</li>
+  <li>Na linha 33, 34 e 35 será informado as credenciais gerados no keyrock no passo anterior.</li>
   <img src="https://user-images.githubusercontent.com/70486745/117068954-45f29e00-ad02-11eb-905c-2a207dfb9689.PNG">
   <li>Salve o arquivo apertando CTRL+O > ENTER > CTRL X</li>
   <li>Obs: Obtenha o caminho abosluto com o comando PWD e cole no comando abaixo no campo <strong>{CAMINHO ABOSULTO}</strong></li>
@@ -121,7 +121,7 @@
 <p>9° Passo - Agora iremos obter o token de acesso do Keyrock, siga as imagens a seguir para obter o APP ID e o SECRET ID: <h4></h4></p>
 <img src="https://user-images.githubusercontent.com/70486745/117069768-47709600-ad03-11eb-85c3-f8a522b7e6da.PNG">
 <img src="https://user-images.githubusercontent.com/70486745/117070473-28263880-ad04-11eb-9804-3eeff16f4fd3.PNG">
-Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao keyrock. utiliza o echo abaixo alterando o APP ID e o SECRET que foi obtido<br><br>
+Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao keyrock. utilize o echo abaixo alterando o APP ID e o SECRET que foi obtido<br><br>
 
 
 echo -n <strong>{APP_ID}</strong>:<strong>{SECRET}</strong> | base64><br>
