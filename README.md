@@ -88,7 +88,7 @@
   <img src="https://user-images.githubusercontent.com/70486745/117068954-45f29e00-ad02-11eb-905c-2a207dfb9689.PNG">
   <li>Salve o arquivo apertando CTRL+O > ENTER > CTRL X</li>
   <li>Obs: Obtenha o caminho abosluto com o comando PWD e cole no comando abaixo no campo <strong>{CAMINHO ABOSULTO}</strong></li>
-  <li>sudo docker run -d --name pep-proxy-container -v {CAMINHO ABSOLUTO}/arquitetura-seguranca/wilma/config.js:/opt/fiware-pep-proxy/config.js -p 1027:1027 pep-proxy-image</li>
+  <li>sudo docker run -d --name pep-proxy-container -v <strong>{CAMINHO ABOSULTO}</strong>/arquitetura-seguranca/wilma/config.js:/opt/fiware-pep-proxy/config.js -p 1027:1027 pep-proxy-image</li>
   <li>Aguarde o processo finalizar, e após isso as 4 ferramentas estarão conectadas.</li>
 </ul>
 
