@@ -65,9 +65,10 @@
     <li>Siga as imagens abaixo para obter o token</li>
     IMAGENS
     <li>Salve os 3 tokens no bloco de notas</li>
+  
+  </ul>
   ![1](https://user-images.githubusercontent.com/70486745/117064958-34f35e00-acfd-11eb-97fa-e7a38a04a4a9.PNG)
 
-  </ul>
 </p>
 
 
