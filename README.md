@@ -62,10 +62,8 @@
   <ul>
     <li>O primeiro passo é logar no keyrock utlizando o navegador, digitando o IP da máquina :3000</li>
     <li>Logue com o usuário: admin@test.com e senha: 1234</li>
-    <li>Siga as imagens abaixo para obter o token</li>
-    IMAGENS
-    <li>Salve os 3 tokens no bloco de notas</li>
-  
+    <li>Siga as imagens abaixo para obter os tokens necessários</li>
+ 
   </ul>
   <img src="https://user-images.githubusercontent.com/70486745/117065150-7b48bd00-acfd-11eb-98b0-2922dfc977c3.PNG">
   <img src="https://user-images.githubusercontent.com/70486745/117065658-25c0e000-acfe-11eb-8c8a-33664598c399.PNG">
@@ -73,6 +71,7 @@
   <img src="https://user-images.githubusercontent.com/70486745/117067012-daa7cc80-acff-11eb-900f-ba50eb7486e5.jpg">
   <img src="https://user-images.githubusercontent.com/70486745/117067620-a2ed5480-ad00-11eb-9a95-80e19c928550.PNG">
   <img src="https://user-images.githubusercontent.com/70486745/117068088-345cc680-ad01-11eb-995b-5690c9a5fd52.PNG">
+  <h4>Salve os tokens no bloco de notas pois serão utilizados no passo 7</h4>
  
 
 </p>
