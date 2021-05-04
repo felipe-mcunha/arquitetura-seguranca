@@ -67,7 +67,8 @@
     <li>Salve os 3 tokens no bloco de notas</li>
   
   </ul>
-  ![1](https://user-images.githubusercontent.com/70486745/117065150-7b48bd00-acfd-11eb-98b0-2922dfc977c3.PNG)
+  <img src="https://user-images.githubusercontent.com/70486745/117065150-7b48bd00-acfd-11eb-98b0-2922dfc977c3.PNG">
+  ![1]()
 
 </p>
 
