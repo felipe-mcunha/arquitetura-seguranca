@@ -64,6 +64,8 @@
     <li>Logue com o usuário: admin@test.com e senha: 1234</li>
     <li>Siga as imagens abaixo para obter o token</li>
     IMAGENS
+  ![image](https://user-images.githubusercontent.com/70486745/117064487-a54daf80-acfc-11eb-9e6a-93676f436a05.png)
+
     <li>Salve os 3 tokens no bloco de notas</li>
   </ul>
 </p>
