@@ -118,8 +118,8 @@
 </p>
 
 
-<p>9° Passo - Agora iremos obter o token de acesso do Keyrock, siga o passo a passo para obter o APP ID e o SECRET ID: <h4></h4></p>
-IMAGENS<br>
+<p>9° Passo - Agora iremos obter o token de acesso do Keyrock, siga as imagens a seguir para obter o APP ID e o SECRET ID: <h4></h4></p>
+<img src="https://user-images.githubusercontent.com/70486745/117069768-47709600-ad03-11eb-85c3-f8a522b7e6da.PNG">
 Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao keyrock. utiliza o echo abaixo alterando o APP ID e o SECRET que foi obtido<br><br>
 
 
