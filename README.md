@@ -85,7 +85,7 @@
   <li>Na linha 15 informe o IP da máquina que o keyrock está ativo.</li>
   <li>Na linha 21 informe o IP que o context broker está ativo.</li>
   <li>Na linha 33, 34 e 35 será informado as credenciais gerados no keyrock, siga as imagens abaixo para obter as credenciais no keyrock.</li>
-  IMAGEM
+  <img src="https://user-images.githubusercontent.com/70486745/117068954-45f29e00-ad02-11eb-905c-2a207dfb9689.PNG">
   <li>Salve o arquivo apertando CTRL+O > ENTER > CTRL X</li>
   <li>Obs: Obtenha o caminho abosluto com o comando PWD e cole no comando abaixo no campo <strong>{CAMINHO ABOSULTO}</strong></li>
   <li>sudo docker run -d --name pep-proxy-container -v {CAMINHO ABSOLUTO}/arquitetura-seguranca/wilma/config.js:/opt/fiware-pep-proxy/config.js -p 1027:1027 pep-proxy-image</li>
