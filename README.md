@@ -109,6 +109,7 @@
 <img src="https://user-images.githubusercontent.com/70486745/117070473-28263880-ad04-11eb-9804-3eeff16f4fd3.PNG">
 Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao keyrock. utilize o echo abaixo alterando o APP ID e o SECRET que foi obtido<br><br>
 
+<h4><strong>Obs: Utilize o arquivo validacao contido no repositorio para fazer os testes</strong></h4>
 
 echo -n <strong>{APP_ID}</strong>:<strong>{SECRET}</strong> | base64><br>
 
@@ -123,6 +124,7 @@ curl -iX POST \ <br>
 
 
   Agora iremos verificar se as ferramentas estão conectadas, a partir do comando a seguir, a resposta que ele deve nos retornar é que domínio não existe, ou seja não tem permissão no ambiente, informe o access token obtido no comando anterior:<br><br>
+<h4><strong>Obs: Utilize o arquivo validacao contido no repositorio para fazer os testes</strong></h4>
   
 
 curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \ <br>
