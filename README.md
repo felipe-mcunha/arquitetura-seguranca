@@ -150,3 +150,4 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <br>
 <h4>Como teste para verificação se o Authzforce está recebendo regras no keyrock, siga o passo a passo a seguir para criar a regra no Keyrock e o mesmo repassar o Authzforce</h4>
 <img src="https://user-images.githubusercontent.com/70486745/117084099-a7c00180-ad1c-11eb-824a-56e15fd210d3.png">
+<img src="https://user-images.githubusercontent.com/70486745/117084359-63813100-ad1d-11eb-9d3f-b32430dadd13.png">
