@@ -152,4 +152,5 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <img src="https://user-images.githubusercontent.com/70486745/117084099-a7c00180-ad1c-11eb-824a-56e15fd210d3.png">
 <img src="https://user-images.githubusercontent.com/70486745/117084359-63813100-ad1d-11eb-9d3f-b32430dadd13.png">
 <img src="https://user-images.githubusercontent.com/70486745/117084609-02a62880-ad1e-11eb-9077-392ac54f737e.PNG">
+<img src="https://user-images.githubusercontent.com/70486745/117084763-721c1800-ad1e-11eb-9d61-c64644a5873f.PNG">
 
