@@ -24,7 +24,7 @@
  Para obter os arquivos digite o comando: 
  <ul>
   <li>sudo chmod 777 requirements.sh ou requirements_sem_helix.sh</li>
-  <li>./requirementes.sh ou requirements_sem_helix.sh</li>
+  <li>./requirements.sh ou requirements_sem_helix.sh</li>
   <li>Iniciado instalação dos requisistos, Aguarde..</li>  
 </ul>
  </p> 
