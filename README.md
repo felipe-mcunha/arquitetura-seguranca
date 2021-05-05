@@ -33,26 +33,7 @@
   <h4>Para quem ainda não possui siga o passo a passo do GitHub do helix para ativar o Context Broker
 <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/docs/create_cef_context_broker.md">Creating a CEF Context Broker</a></h4>
 <h4>Para validar a conexão siga o passo a passo a seguir:</h4>
-  Iremos criar uma entidade no helix<br>
-  Insira o CURL abaixo alterando para o Ip da máquina<br><br>
-  curl --location --request POST 'http://<strong>{IP MAQUINA}</strong>:1026/v2/entities' \
---header 'Content-Type: application/json' \<br>
---header 'fiware-service: helixiot' \<br>
---header 'fiware-servicepath: /' \<br>
---data-raw '{<br>
-  "id": "urn:ngsi-ld:entity:001",<br>
-  "type": "iot",<br>
-  "temperature": {<br>
-  "type": "float",<br>
-  "value": 0<br>
-    }<br>
-,<br>
-  "humidity": {<br>
-  "type": "float",<br>
-  "value": 0<br>
-  }<br>
-}<br>
-'<br>
+<p> Copie o arquivo criando_entidade_no_helix para o bloco de notas e altere o IP
 </p>
 
 <p><h4>4° Passo - Nessa etapa iremos subir a primeira ferramenta de segurança, o Authzforce, Siga os comandos abaixo:</h4>
