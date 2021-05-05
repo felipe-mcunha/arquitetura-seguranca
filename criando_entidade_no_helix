@@ -1,0 +1,18 @@
+curl --location --request POST 'http://192.168.0.112:1026/v2/entities' \
+--header 'Content-Type: application/json' \
+--header 'fiware-service: helixiot' \
+--header 'fiware-servicepath: /' \
+--data-raw '{
+  "id": "urn:ngsi-ld:entity:001",
+  "type": "iot",
+  "temperature": {
+  "type": "float",
+  "value": 0
+    }
+,
+  "humidity": {
+  "type": "float",
+  "value": 0
+	}
+}
+'
