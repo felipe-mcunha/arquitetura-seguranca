@@ -155,4 +155,6 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <img src="https://user-images.githubusercontent.com/70486745/117084763-721c1800-ad1e-11eb-9d61-c64644a5873f.PNG">
 <p>Nessa etapa iremos criar a regra no Keyrock para que seja transmitida ao Authzforce, Informe o nome da regra, uma descrição e o código XACML utilizado no exemplo que está disponível no arquivo regra_de_acesso.xacml</p>
 <h5>Obs: Será necessário editar o Client ID do arquivo XACML na linha 25</h5>
-
+<img src="https://user-images.githubusercontent.com/70486745/117085697-d8099f00-ad20-11eb-979c-3f70e051ccff.PNG">
+<img src="https://user-images.githubusercontent.com/70486745/117085858-56fed780-ad21-11eb-8aff-85a48410756c.png">
+<img src="https://user-images.githubusercontent.com/70486745/117086043-dd1b1e00-ad21-11eb-8079-6b0bd7502a57.png">
