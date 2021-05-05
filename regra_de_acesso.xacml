@@ -22,7 +22,7 @@
   <Condition>
     <Apply FunctionId="urn:ngsi-ld:entity:001:function:any-of">
       <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal" />
-      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">c0b3732d-5dc8-4f59-b542-a28672cc0134</AttributeValue>
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">{CLIENTE ID}</AttributeValue>
       <AttributeDesignator Category="urn:ngsi-ld:entity:001:subject-category:access-subject" AttributeId="urn:ngsi-ld:entity:001:subject:role" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false" />
     </Apply>
   </Condition>
