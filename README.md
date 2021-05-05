@@ -32,6 +32,27 @@
 <p><h4>3° Passo - Caso já possua o helix instalado e tenha ativado o Context Broker pule para a etapa 4</h4>
   <h4>Para quem ainda não possui siga o passo a passo do GitHub do helix para ativar o Context Broker
 <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/docs/create_cef_context_broker.md">Creating a CEF Context Broker</a></h4>
+<h4>Para validar a conexão siga o passo a passo a seguir:</h4>
+  Iremos criar uma entidade no helix<br>
+  Insira o CURL abaixo alterando para o Ip da máquina<br><br>
+  curl --location --request POST 'http://<strong>{IP MAQUINA}</strong>:1026/v2/entities' \
+--header 'Content-Type: application/json' \<br>
+--header 'fiware-service: helixiot' \<br>
+--header 'fiware-servicepath: /' \<br>
+--data-raw '{<br>
+  "id": "urn:ngsi-ld:entity:001",<br>
+  "type": "iot",<br>
+  "temperature": {<br>
+  "type": "float",<br>
+  "value": 0<br>
+    }<br>
+,<br>
+  "humidity": {<br>
+  "type": "float",<br>
+  "value": 0<br>
+  }<br>
+}<br>
+'<br>
 </p>
 
 <p><h4>4° Passo - Nessa etapa iremos subir a primeira ferramenta de segurança, o Authzforce, Siga os comandos abaixo:</h4>
@@ -39,6 +60,7 @@
   <li>cd authzforce</li>
   <li>docker-compose up</li>
   <li>Aguarde o processo do container ser ativado</li>
+  <li> Digite CTRL + C e em seguida bg para jogar a aplicação em 2°plano</li>
   <li>Retorne para a pasta arquitetura de segurança utilizando o comando cd..</li>
 </ul>
 
@@ -56,7 +78,7 @@
   <li>Salve o arquivo apertando ctrl+O > ENTER > ctrl X</li>
   <li>docker-compose up para ativar o container do Keyrock</li>
   <li>Aguarde o processo do container ser ativado</li>
-  <li>Retorne para a pasta arquitetura de segurança utilizando o comando cd..</li>
+  <li>Após a instalação abra um novo terminal do putty, entre como root e acesse a pasta arquitetura-seguranca</li>
 </ul>
 </p>
 
@@ -96,32 +118,12 @@
 </ul>
 
 <p>
-  <h4>8° Passo - Para validar a conexão siga o passo a passo a seguir:</h4>
-  Primeiro iremos criar uma entidade no helix<br>
-  Insira o CURL abaixo alterando para o Ip da máquina<br><br>
-  curl --location --request POST 'http://<strong>{IP MAQUINA}</strong>:1026/v2/entities' \
---header 'Content-Type: application/json' \<br>
---header 'fiware-service: helixiot' \<br>
---header 'fiware-servicepath: /' \<br>
---data-raw '{<br>
-  "id": "urn:ngsi-ld:entity:001",<br>
-  "type": "iot",<br>
-  "temperature": {<br>
-  "type": "float",<br>
-  "value": 0<br>
-    }<br>
-,<br>
-  "humidity": {<br>
-  "type": "float",<br>
-  "value": 0<br>
-  }<br>
-}<br>
-'<br>
+  
 
 </p>
 
 
-<p>9° Passo - Agora iremos obter o token de acesso do Keyrock, siga as imagens a seguir para obter o APP ID e o SECRET ID: <h4></h4></p>
+<p>8° Passo - Agora iremos obter o token de acesso do Keyrock, siga as imagens a seguir para obter o APP ID e o SECRET ID: <h4></h4></p>
 <img src="https://user-images.githubusercontent.com/70486745/117069768-47709600-ad03-11eb-85c3-f8a522b7e6da.PNG">
 <img src="https://user-images.githubusercontent.com/70486745/117070473-28263880-ad04-11eb-9804-3eeff16f4fd3.PNG">
 Com esses tokens em mãos iremos gerar um base64 para solictar o acess token ao keyrock. utilize o echo abaixo alterando o APP ID e o SECRET que foi obtido<br><br>
