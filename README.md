@@ -158,3 +158,12 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <img src="https://user-images.githubusercontent.com/70486745/117085697-d8099f00-ad20-11eb-979c-3f70e051ccff.PNG">
 <img src="https://user-images.githubusercontent.com/70486745/117085858-56fed780-ad21-11eb-8aff-85a48410756c.png">
 <img src="https://user-images.githubusercontent.com/70486745/117086043-dd1b1e00-ad21-11eb-8079-6b0bd7502a57.png">
+<p>Após clicar em save, o Authzforce já vai receber e criar o domínio para a entidade.</p>
+<h5>Validação da regra de leitura</h5>
+<p>Envie novamente o comando utilizado no passo anterior para validação de conexão, o retorno esperado deverá ser as informações na entidade do helix</p>
+curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/entities' \ <br>
+--header 'Accept: application/json' \ <br>
+--header 'fiware-service: helixiot' \ <br>
+--header 'fiware-servicepath: /' \ <br>
+--header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'<br>
+<br>
