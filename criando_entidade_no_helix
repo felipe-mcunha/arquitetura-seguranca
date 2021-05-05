@@ -1,4 +1,4 @@
-curl --location --request POST 'http://192.168.0.112:1026/v2/entities' \
+curl --location --request POST 'http://IP_SERVIDOR:1026/v2/entities' \
 --header 'Content-Type: application/json' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
