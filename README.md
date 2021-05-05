@@ -157,5 +157,5 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 --header 'fiware-servicepath: /' \ <br>
 --header 'X-Auth-Token: <strong>{ACCESS TOKEN}</strong>'<br>
 <br>
-<h3>Link do youtube para realização da primeira etapa </h3>
+<h3>Link do youtube para realização da terceira etapa </h3>
 https://www.youtube.com/watch?v=qBaY3kxcSf8
