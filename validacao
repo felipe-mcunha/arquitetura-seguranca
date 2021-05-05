@@ -1,0 +1,17 @@
+echo -n {CLIENT_ID}:{CLIENT_SECRET} | base64
+
+
+
+curl -iX POST \
+  'http://localhost:3000/oauth2/token' \
+  -H 'Accept: application/json' \
+  -H 'Authorization: Basic {BASE64}' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  --data "username=admin@test.com&password=1234&grant_type=password"
+
+
+curl --location --request GET 'http://{IP_SERVIDOR}:1027/v2/entities' \
+--header 'Accept: application/json' \
+--header 'fiware-service: helixiot' \
+--header 'fiware-servicepath: /' \
+--header 'X-Auth-Token: {ACESS_TOKEN}'
