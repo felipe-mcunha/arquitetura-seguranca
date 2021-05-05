@@ -4,8 +4,8 @@
 <p class="paragrafo1">A arquitetura apresentada realiza a implementação das soluções de segurança FIWARE sem a necessidade de alterações na estrutura da plataforma Helix e no Orion Context Broker, onde o usuário passa a ter acesso a plataforma Helix para visualização do funcionamento do Context Broker, porém quando for realizar a criação de entidades no Context broker é necessário se autenticar no ambiente.</p>
   <p class="paragrafo2">Anteriormente o dispositivo IoT quando se comunicava com a plataforma para realizar alterações, ocorria uma comunicação direta com o Context Broker sem a necessidade de autenticação, após a implementação, o dispositivo passa a se autenticar para realizar a leitura de informações já existentes no banco de dados, escrever informações do banco de dados, ou alterar informações já existente.</p>
   <p class="paragrafo3">Para a elaboração da arquitetura foram utilizados três soluções FIWARE, que são: Pep-proxy, AuthzForce, e Wilma Pep-Proxy, cada um responsável por uma etapa de autorização e autenticação no sistema. O Keyrock consiste em um gerenciador de identidades, onde as identidades que serão registrados no Helix deverão ser criados para receber autorização no ambiente, juntamente com a conta dos administradores que irão realizar alterações no ambiente. O Authzforce é um PDP (Policy decision point) que irá tomar as decisões baseadas em políticas de permissões previamente criadas. E por último o Wilma Pep-Proxy que é um PEP (Policy enforcement point) que terá como função interceptar o trafego e consultar o Authzforce e o Keyrcok para identificar se o dispositvo que está tentando se comunicar com o context broker possui autorização para realizar a conexão, e permissão para realizar ações na plataforma Helix.</p>
-  <img src="https://user-images.githubusercontent.com/70486745/117072044-4856f700-ad06-11eb-9bd4-d735e0b32288.jpg">
-  
+  <img src="https://user-images.githubusercontent.com/70486745/117086554-3768ae80-ad23-11eb-8cb2-30b9584b6bd9.jpg">
+
   <h3>Passo a passo:</h3>
 
 <p><h4>1° Passo - O primeiro passo para instalação da arquitetura é realizar o download dos arquivos contidos no GitHub</h4>
