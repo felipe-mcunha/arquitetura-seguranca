@@ -34,7 +34,10 @@
 <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/docs/create_cef_context_broker.md">Creating a CEF Context Broker</a></h4>
 <h4>Para validar a conexão siga o passo a passo a seguir:</h4>
 <p> Copie o arquivo criando_entidade_no_helix para o bloco de notas e altere o IP
+<h3>Link do youtube para realização da primeira etapa </h3>
+https://www.youtube.com/watch?v=CEI9_HaFaBQ
 </p>
+
 
 <p><h4>4° Passo - Nessa etapa iremos subir a primeira ferramenta de segurança, o Authzforce, Siga os comandos abaixo:</h4>
 <ul>
