@@ -150,33 +150,33 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <br>
 <h4>Como teste para verificação se o Authzforce está recebendo regras no keyrock, siga o passo a passo a seguir para criar a regra no Keyrock e o mesmo repassar o Authzforce</h4>
 <p>
-<Rule RuleId="alrmbell-ring-0000-0000-000000000000" Effect="Permit"> <br>
-  <Description>Acesso ao helix</Description> <br>
-  <Target> <br>
-    <AnyOf> <br>
-      <AllOf> <br>
-        <Match MatchId="urn:ngsi-ld:entity:001:function:string-equal"> <br>
-          <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">/</AttributeValue> <br>
-          <AttributeDesignator Category="urn:ngsi-ld:entity:001:attribute-category:resource" AttributeId="urn:ngsi-ld:entity:001:resource:sub-resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true" /> <br>
-        </Match> <br>
-      </AllOf> <br>
-    </AnyOf> <br>
-    <AnyOf> <br>
-      <AllOf> <br>
-        <Match MatchId="urn:ngsi-ld:entity:001:function:string-equal"> <br>
-          <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">GET</AttributeValue> <br>
-          <AttributeDesignator Category="uurn:ngsi-ld:entity:001:attribute-category:action" AttributeId="urn:ngsi-ld:entity:001:action:action-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true" /> <br>
-        </Match> <br>
-      </AllOf> <br>
-    </AnyOf> <br>
-  </Target> <br>
-  <Condition> <br>
-    <Apply FunctionId="urn:ngsi-ld:entity:001:function:any-of"> <br>
-      <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal" /> <br>
-      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">{CLIENT ID}</AttributeValue> <br>
-      <AttributeDesignator Category="urn:ngsi-ld:entity:001:subject-category:access-subject" AttributeId="urn:ngsi-ld:entity:001:subject:role" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false" /> <br>
-    </Apply> <br>
-  </Condition> <br>
-</Rule> <br>
+<Rule RuleId="alrmbell-ring-0000-0000-000000000000" Effect="Permit">
+  <Description>Acesso ao helix</Description>
+  <Target>
+    <AnyOf>
+      <AllOf>
+        <Match MatchId="urn:ngsi-ld:entity:001:function:string-equal">
+          <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">/</AttributeValue>
+          <AttributeDesignator Category="urn:ngsi-ld:entity:001:attribute-category:resource" AttributeId="urn:ngsi-ld:entity:001:resource:sub-resource-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true" />
+        </Match>
+      </AllOf>
+    </AnyOf>
+    <AnyOf>
+      <AllOf>
+        <Match MatchId="urn:ngsi-ld:entity:001:function:string-equal">
+          <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">GET</AttributeValue>
+          <AttributeDesignator Category="uurn:ngsi-ld:entity:001:attribute-category:action" AttributeId="urn:ngsi-ld:entity:001:action:action-id" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true" />
+        </Match>
+      </AllOf>
+    </AnyOf>
+  </Target>
+  <Condition>
+    <Apply FunctionId="urn:ngsi-ld:entity:001:function:any-of">
+      <Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal" />
+      <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">c0b3732d-5dc8-4f59-b542-a28672cc0134</AttributeValue>
+      <AttributeDesignator Category="urn:ngsi-ld:entity:001:subject-category:access-subject" AttributeId="urn:ngsi-ld:entity:001:subject:role" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="false" />
+    </Apply>
+  </Condition>
+</Rule>
 </p>
  
