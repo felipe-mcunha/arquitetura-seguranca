@@ -38,13 +38,12 @@
 https://www.youtube.com/watch?v=CEI9_HaFaBQ
 </p>
 
-
 <p><h4>4° Passo - Nessa etapa iremos subir a primeira ferramenta de segurança, o Authzforce, Siga os comandos abaixo:</h4>
 <ul>
   <li>cd authzforce</li>
   <li>docker-compose up</li>
   <li>Aguarde o processo do container ser ativado</li>
-  <li> Digite CTRL + C e em seguida bg para jogar a aplicação em 2°plano</li>
+  <li> Digite CTRL + Z e em seguida bg para jogar a aplicação em 2°plano</li>
   <li>Retorne para a pasta arquitetura de segurança utilizando o comando cd..</li>
 </ul>
 
@@ -100,6 +99,9 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <li>sudo docker run -d --name pep-proxy-container -v <strong>{CAMINHO ABOSULTO}</strong>/arquitetura-seguranca/wilma/config.js:/opt/fiware-pep-proxy/config.js -p 1027:1027 pep-proxy-image</li>
   <li>Aguarde o processo finalizar, e após isso as 4 ferramentas estarão conectadas.</li>
 </ul>
+<h3>Link do youtube para realização da segunda etapa</h3>
+https://www.youtube.com/watch?v=aTkyHVxOqCo&feature=youtu.be
+
 
 <p>
   
