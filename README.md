@@ -160,3 +160,9 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <br>
 <h3>Link do youtube para realização da terceira etapa </h3>
 https://www.youtube.com/watch?v=qBaY3kxcSf8
+
+<h3>Colaboradores do projeto:</h3>
+<p>Esse trabalho foi desenvolvido pelos alunos da Fatec São Caetanod do Sul, como projeto de graduação orientados pelo Professor Me. Fábio Henrique Cabrini.</p>
+<ul>
+  <li>teste</li>
+</ul>  
