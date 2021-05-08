@@ -1,5 +1,14 @@
 
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
+<h3>Colaboradores do projeto:</h3>
+<p>Esse trabalho foi desenvolvido pelos alunos da <a href="https://www.fatecsaocaetano.edu.br/">Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=482C40AD93F522D1100CC53367B6FD12.buscatextual_0">Professor Me. Fábio Henrique Cabrini</a>.</p>
+<ul>
+  <li><a href="https://www.linkedin.com/in/felipe-cunha-7aa33935/">Felipe Matheus da Cunha</a></li>
+  <li><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/">João Vitor de Araujo Bonfim</a></li>
+  <li><a href="https://www.linkedin.com/in/matheus-pereira-mendes-900269192/">Matheus Pereira Mendes</a></li>
+  <li><a href="https://www.linkedin.com/in/fabio-cabrini/">Fábio Henrique Cabrini</a></li>
+</ul>  
+
 
 <p class="paragrafo1">A arquitetura apresentada realiza a implementação das soluções de segurança FIWARE sem a necessidade de alterações na estrutura da plataforma Helix e no Orion Context Broker, onde o usuário passa a ter acesso a plataforma Helix para visualização do funcionamento do Context Broker, porém quando for realizar a criação de entidades no Context broker é necessário se autenticar no ambiente.</p>
   <p class="paragrafo2">Anteriormente o dispositivo IoT quando se comunicava com a plataforma para realizar alterações, ocorria uma comunicação direta com o Context Broker sem a necessidade de autenticação, após a implementação, o dispositivo passa a se autenticar para realizar a leitura de informações já existentes no banco de dados, escrever informações do banco de dados, ou alterar informações já existente.</p>
@@ -161,11 +170,3 @@ curl --location --request GET 'http://<strong>{IP_MAQUINA}</strong>:1027/v2/enti
 <h3>Link do youtube para realização da terceira etapa </h3>
 https://www.youtube.com/watch?v=qBaY3kxcSf8
 
-<h3>Colaboradores do projeto:</h3>
-<p>Esse trabalho foi desenvolvido pelos alunos da <a href="https://www.fatecsaocaetano.edu.br/">Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=482C40AD93F522D1100CC53367B6FD12.buscatextual_0">Professor Me. Fábio Henrique Cabrini</a>.</p>
-<ul>
-  <li><a href="https://www.linkedin.com/in/felipe-cunha-7aa33935/">Felipe Matheus da Cunha</a></li>
-  <li><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/">João Vitor de Araujo Bonfim</a></li>
-  <li><a href="https://www.linkedin.com/in/matheus-pereira-mendes-900269192/">Matheus Pereira Mendes</a></li>
-  <li><a href="https://www.linkedin.com/in/fabio-cabrini/">Fábio Henrique Cabrini</a></li>
-</ul>  
