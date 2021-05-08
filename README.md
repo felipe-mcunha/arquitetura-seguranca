@@ -1,12 +1,12 @@
 
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
 <h3>Colaboradores do projeto:</h3>
-<p>Esse trabalho foi desenvolvido pelos alunos da <a target='_blank' href="https://www.fatecsaocaetano.edu.br/">Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a target='_blank' href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=482C40AD93F522D1100CC53367B6FD12.buscatextual_0">Professor Me. Fábio Henrique Cabrini</a>.</p>
+<p>Esse trabalho foi desenvolvido pelos alunos da <a target="_blank" href="https://www.fatecsaocaetano.edu.br/">Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=482C40AD93F522D1100CC53367B6FD12.buscatextual_0">Professor Me. Fábio Henrique Cabrini</a>.</p>
 <ul>
-  <li><a target='_blank' href="https://www.linkedin.com/in/felipe-cunha-7aa33935/">Felipe Matheus da Cunha</a></li>
-  <li><a target='_blank' href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/">João Vitor de Araujo Bonfim</a></li>
-  <li><a target='_blank' href="https://www.linkedin.com/in/matheus-pereira-mendes-900269192/">Matheus Pereira Mendes</a></li>
-  <li><a target='_blank' href="https://www.linkedin.com/in/fabio-cabrini/">Fábio Henrique Cabrini</a></li>
+  <li><a target="_blank" href="https://www.linkedin.com/in/felipe-cunha-7aa33935/">Felipe Matheus da Cunha</a></li>
+  <li><a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/">João Vitor de Araujo Bonfim</a></li>
+  <li><a target="_blank" href="https://www.linkedin.com/in/matheus-pereira-mendes-900269192/">Matheus Pereira Mendes</a></li>
+  <li><a target="_blank" href="https://www.linkedin.com/in/fabio-cabrini/">Fábio Henrique Cabrini</a></li>
 </ul>  
 
 
