@@ -1,7 +1,7 @@
 
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
 <h3>Colaboradores do projeto:</h3>
-<p>Esse trabalho foi desenvolvido pelos alunos da <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank"> Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a  href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=482C40AD93F522D1100CC53367B6FD12.buscatextual_0" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
+<p>Esse trabalho foi desenvolvido pelos alunos da <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank"> Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a  href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
 <ul>
   <li><a  href="https://www.linkedin.com/in/felipe-cunha-7aa33935/" target="_blank">Felipe Matheus da Cunha</a></li>
   <li><a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ara%C3%BAjo-bonfim-7406b619b/" target="_blank">João Vitor de Araujo Bonfim</a></li>
