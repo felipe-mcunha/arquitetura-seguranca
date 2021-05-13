@@ -1,5 +1,6 @@
 
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
+<p>English version: <a href="https://github.com/m-mendes/security-architecture">Implementation of authentication and authorization mechanisms on Helix Sandbox-NG Platform</a></p>
 <h3>Colaboradores do projeto:</h3>
 <p>Esse trabalho foi desenvolvido pelos alunos da <a  href="https://www.fatecsaocaetano.edu.br/" target="_blank"> Fatec São Caetano do Sul</a>, como projeto de graduação orientados pelo <a  href="http://lattes.cnpq.br/3044213933175294" target="_blank">Professor Me. Fábio Henrique Cabrini</a>.</p>
 <ul>
