@@ -40,7 +40,7 @@
  </p> 
 
 <p><h4>3° Passo - Caso já possua o helix instalado e tenha ativado o Context Broker pule para a etapa 4</h4>
-  <h4>Para quem ainda não possui siga o passo a passo do GitHub do helix para ativar o Context Broker
+  <h4>Para quem ainda não possui, siga o passo a passo do GitHub do helix para ativar o Context Broker
 <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/docs/create_cef_context_broker.md">Creating a CEF Context Broker</a></h4>
 <h4>Para validar a conexão siga o passo a passo a seguir:</h4>
 <p> Copie o arquivo criando_entidade_no_helix para o bloco de notas e altere o IP
@@ -89,7 +89,7 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <img src="https://user-images.githubusercontent.com/70486745/117067012-daa7cc80-acff-11eb-900f-ba50eb7486e5.jpg">
   <img src="https://user-images.githubusercontent.com/70486745/117067620-a2ed5480-ad00-11eb-9a95-80e19c928550.PNG">
   <img src="https://user-images.githubusercontent.com/70486745/117068088-345cc680-ad01-11eb-995b-5690c9a5fd52.PNG">
-  <h4>Salve os tokens no bloco de notas pois serão utilizados no passo 7</h4>
+  <h4>Salve os tokens no bloco de notas, pois serão utilizados no passo 7</h4>
  
 
 </p>
@@ -106,7 +106,7 @@ https://www.youtube.com/watch?v=CEI9_HaFaBQ
   <img src="https://user-images.githubusercontent.com/70486745/117068954-45f29e00-ad02-11eb-905c-2a207dfb9689.PNG">
   <li>Na linha 58 informe o IP que o Authzforce está ativo.</li>
   <li>Salve o arquivo apertando CTRL+O > ENTER > CTRL X</li>
-  <li>Obs: Obtenha o caminho abosluto com o comando PWD e cole no comando abaixo no campo <strong>{CAMINHO ABOSULTO}</strong></li>
+  <li>Obs: Obtenha o caminho absoluto com o comando PWD e cole no comando abaixo no campo <strong>{CAMINHO ABOSULTO}</strong></li>
   <li>sudo docker run -d --name pep-proxy-container -v <strong>{CAMINHO ABOSULTO}</strong>/arquitetura-seguranca/wilma/config.js:/opt/fiware-pep-proxy/config.js -p 1027:1027 pep-proxy-image</li>
   <li>Aguarde o processo finalizar, e após isso as 4 ferramentas estarão conectadas.</li>
 </ul>
