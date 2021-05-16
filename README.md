@@ -1,4 +1,5 @@
-
+<p.Este trabalho tem o objetivo de implementar uma arquitetura de segurança utilizando as soluções de segurança oferecidas pela FIWARE que são Keyrock Wilma PEP-Proxy e Authzforce visando  garantir a integridade das informações no banco de dados do Helix Sandbox NG, sem a necessidade de alterar as configurações da plataforma. Para atingir esse objetivo foi desenvolvido um GitHub que inclui os arquivos necessários para implementar a arquitetura de segurança juntamente com o tutorial ensinando como instalar e configurar as ferramentas
+ Palavras-chave: Helix Sandbox NG. FIWARE. Authzforce. Wilma Pep-Proxy. Keyrock. IoT. Autenticação.</p>
 <h1>Implementação dos mecanismos de autenticação e autorização na Plataforma Helix Sandbox-NG </h1>
 <p>English version: <a href="https://github.com/m-mendes/security-architecture">Implementation of authentication and authorization mechanisms on Helix Sandbox-NG Platform</a></p>
 <h3>Colaboradores do projeto:</h3>
